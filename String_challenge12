@@ -1,0 +1,12 @@
+string=input()
+space=string.strip()
+lower=space.lower()
+alphabets="abcdefghijklmnopqrstuvwxyz"
+count=0
+for i in alphabets:
+    if i in lower:
+        count=count+1
+if(count==26):
+    print("Pangrams")
+else:
+    print("Not Pangrams")
