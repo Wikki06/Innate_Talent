@@ -1,0 +1,6 @@
+n=int(input())
+string=input()
+length=len(string)
+answer=n%length
+print(string[answer:length]+string[0:answer])
+
