@@ -1,0 +1,7 @@
+num=int(input())
+arr=list(map(int,input().split()))
+small=arr[0]
+for i in range(1,num):
+    if(arr[i]<small):
+        small=arr[i]
+print(small)
