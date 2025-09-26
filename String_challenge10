@@ -1,0 +1,9 @@
+string1=input()
+string2=input()
+space=string1.strip()
+if(sorted(space)==sorted(string2)):
+    print(space,"and",string2,"are Anagrams.")
+else:
+    print(space,"and",string2,"are Not Anagrams.")
+    
+    
