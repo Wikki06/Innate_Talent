@@ -1,0 +1,10 @@
+string=input()
+number=""
+for i in string:
+    if(i.isdigit()):
+        number=number+i
+if(number==""):
+    print(0)
+else:
+    print(number)
+        
