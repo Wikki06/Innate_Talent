@@ -1,0 +1,9 @@
+num=int(input())
+if(num%3==0):
+    print("The number is divisible by 3")
+elif(num%3!=0):
+    rem=num%3
+    if(rem==1):
+        print("The number is not divisible by 3 and gives a remainder 1")
+    else:
+        print("The number is not divisible by 3 and gives a remainder 2")
