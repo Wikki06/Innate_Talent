@@ -1,0 +1,22 @@
+string=input()
+length=len(string)
+upper=0
+lower=0
+special=0
+digit=0
+if(length>=10):
+    
+    for i in string:
+        if(i.isdigit()):
+            digit=1
+        elif(i.isupper()):
+            upper=1
+        elif(i.islower()):
+            lower=1
+        else:
+            special=1
+if(special+lower+upper+digit==4):
+    print("Strong password")
+else:
+    print("Weak password")
+        
