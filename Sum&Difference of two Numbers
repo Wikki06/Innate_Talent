@@ -1,0 +1,8 @@
+a,b=map(int,input().split())
+c,d=map(float,input().split())
+add=a+b
+diff=a-b
+add2=c+d
+diff2=c-d
+print(add,diff)
+print(add2,diff2)
