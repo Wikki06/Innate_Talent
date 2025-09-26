@@ -1,0 +1,9 @@
+target=input()
+string=input()
+for i in string:
+    if target in string:
+        print("Present")
+        break
+    else:
+        print("Not Present")
+        break
