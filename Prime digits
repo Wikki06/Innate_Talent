@@ -1,0 +1,8 @@
+string=input()
+prime=['2','3','5','7']
+for i in string:
+    if(i in prime):
+        print(i,end=" ")
+
+
+
