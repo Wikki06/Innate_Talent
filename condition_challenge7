@@ -1,0 +1,5 @@
+time,minu,sec=map(int,input().split(':'))
+if((time>24 or minu>60 or sec>60) or (time<0 or minu<0 or sec<0)):
+    print("Not Valid")
+else:
+    print("Valid")
