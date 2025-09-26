@@ -1,0 +1,11 @@
+num=int(input())
+numbers=list(map(int,input().split()))
+zc=0
+oc=0
+for i in numbers:
+    if(i==0):
+        zc=zc+1
+    elif(i==1):
+        oc=oc+1
+print("zc =",zc)
+print("oc =",oc)        
