@@ -1,0 +1,9 @@
+num=int(input())
+for i in range(num):
+    string=input()
+    lower=string.lower()
+    if(lower=="yes"):
+        print("YES")
+    else:
+        print("NO")
+
