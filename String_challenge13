@@ -1,0 +1,6 @@
+string=input()
+rev=""
+splitted_string=string.split(" ")
+for i in splitted_string:
+    rev=i+" "+rev
+print(rev)
