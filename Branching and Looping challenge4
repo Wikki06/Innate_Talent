@@ -1,0 +1,11 @@
+base,power=map(int,input().split())
+for i in range(power+1):
+    ans=base**power
+print(ans)
+    
+
+
+
+
+
+
