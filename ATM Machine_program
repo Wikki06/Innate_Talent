@@ -1,0 +1,39 @@
+amount=int(input())
+original=amount
+count_500=0
+count_100=0
+print("Total number of notes:")
+remainder=amount%500
+amount2=amount//500
+count_500=count_500+amount2
+print("500 :",count_500)
+remainder2=remainder%100
+amount3=remainder//100
+print("100 :",amount3)
+remainder3=remainder2%50
+amount4=remainder2//50
+print("50 :",amount4)
+remainder4=remainder3%20
+amount5=remainder3//20
+print("20 :",amount5)
+remainder5=remainder4%10
+amount6=remainder4//10
+print("10 :",amount6)
+remainder6=remainder5%5
+amount7=remainder5//5
+print("5 :",amount7)
+remainder7=remainder6%2
+amount8=remainder6//2
+print("2 :",amount8)
+remainder8=remainder7%1
+amount9=remainder7//1
+print("1 :",amount9)
+
+
+
+
+
+
+
+
+
