@@ -1,0 +1,11 @@
+n=int(input())
+arr=list(map(int,input().split()))
+add=0
+for i in range(n):
+    temp=arr[i]
+    arr[i]=add
+    add=add+temp
+for i in arr:
+    print(i,end=" ")
+        
+        
