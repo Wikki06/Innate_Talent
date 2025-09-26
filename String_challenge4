@@ -1,0 +1,9 @@
+string=input()
+vowels="aeiouAEIOU"
+word=""
+for i in string:
+    if(i in vowels):
+        word=word+" "
+    else:
+        word=word+i
+print(word)
